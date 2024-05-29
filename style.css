@@ -1,0 +1,21 @@
+nav {
+  background-color: rgb(44, 203, 203);
+}
+
+.jumbotron {
+  padding: 2rem 1rem;
+  background-color: rgb(39, 117, 117);
+  color: white;
+}
+
+.jumbotron img {
+  width: 200px;
+}
+
+#projects {
+  background-color: rgb(39, 117, 117);
+}
+
+.card img {
+  object-fit: cover;
+}
