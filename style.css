@@ -1,21 +1,130 @@
-nav {
-  background-color: rgb(44, 203, 203);
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Montserrat, sans-serif;
+    background-color: #F4EEE0;
 }
 
-.jumbotron {
-  padding: 2rem 1rem;
-  background-color: rgb(39, 117, 117);
-  color: white;
+h2, h3{
+    color: #6B728E;
 }
 
-.jumbotron img {
-  width: 200px;
+footer{
+    background-color: #6D5D6E;
+    text-align: center;
+    padding: 20px;
 }
 
-#projects {
-  background-color: rgb(39, 117, 117);
+.gambar-artiker{
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    object-position: center;
 }
 
-.card img {
-  object-fit: cover;
+.gambar-dokum{
+    width: 200px;
+}
+
+main{
+    padding: 20px;
+}
+
+.card{
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.77);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.jumbotron{
+    font-size: 20px;
+    background-color: #836085;
+    color: white;
+    text-align: center;
+    padding: 60px;
+    
+}
+
+header{
+    display: inline;
+}
+
+nav{
+    padding: 5px;
+    background-color: #4d3f4d;
+    position: sticky;
+    top: 0px;
+}
+
+nav ul li{
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+nav ul li a:hover{
+    font-weight: bold;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+main{
+    display: flex;
+    gap: 20px;
+}
+
+main #content{
+    flex-grow: 6;
+
+}
+
+main aside {
+    flex-grow: 1;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+    nav{
+        text-align: center;
+    }
+    .jumbotron{
+        font-size: 18px;
+    }
+
+    nav ul li a {
+        font-size: 14px;
+    }
+
+    nav ul li {
+        margin-right: 10px;
+    }
+
+    aside{
+        text-align: center;
+    }
+}
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+    nav{
+        text-align: center;
+    }
+    
+    aside{
+        text-align: center;
+    }
 }
