@@ -1,171 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link
-      rel="stylesheet"
-      href="bootstrap-5.3.3-dist/bootstrap-5.3.3-dist/css/bootstrap.min.css"
-    />
-    <link rel="stylesheet" href="style.css" />
-  </head>
-
-  <body>
-    <!-- NAVIGASI -->
-    <nav class="navbar navbar-expand-sm fixed-top navbar-dark">
-      <div class="container">
-        <a class="navbar-brand" href="#">Dava Hafizh Prawira</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#home"
-                >Home</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#projects">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
-            </li>
-          </ul>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D' Parfume</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Jacquard+24&family=Micro+5+Charted&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="jumbotron">
+            <h1>D' PARFUME</h1>
+            <p>PARFUME MURAH TAPI GA MURAHAN</p>
         </div>
-      </div>
-    </nav>
-    <!-- NAVIGASI -->
+            <nav>
+                <ul>
+                    <li><a href="#home">home</a></li>
+                    <li><a href="#profil">profil</a></li>
+                    <li><a href="#produk">produk</a></li>
+                    <li><a href="#pemesanan">pemesanan</a></li>
+                    <li><a href="#dokumentasi">dokumentasi</a></li>
+                </ul>
+            </nav>
+    </header>
+    <main>
+        <div id="content">
+            <article id="profil" class="card">
+                <h2>PROFIL D' PARFUME</h2>
+                <img src="image/bottle.jpg" alt="logo botol1" title="botol parfum" class="gambar-artiker" width="300px">
+                <p>
+                    Parfum D' Parfume adalah parfum dengan harga murah namun kualitas tidak murahan.
+                    Kami hadir dari keresahan orang-orang yang selalu mengeluh parfum mahal mereka tidak bertahan lama.
+                    <br>Namun terlalu mahal untuk membeli parfum yang bertahan lama. Sehingga kami berinisiatif untuk 
+                    menghadirkan parfum dengan harga murah, namun memiliki daya tahan yang lama.
+                </p>
+            </article>
+            <article id="produk" class="card">
+                <h2>Jenis pilihan parfume kami</h2>
+                <img src="image/bottle2.jpg" alt="jenis parfum" title="botol parfum2" class="gambar-artiker" width="300px">
+                <p>Kami memiliki EDC, EDT, dan EDP </p>
+                <table border="1" cellspacing="0" cellpadding="5">
+                    <tr>
+                        <th>JENIS</th>
+                        <th>KARAKTER</th>
+                        <th>KANDUNGAN</th>
+                        <th>HARGA</th>
+                        <th>DISPLAY</th>
+                    </tr>
+                    <tr>
+                        <th>EDC</th>
+                        <td>Ringan dan menyegarkan</td>
+                        <td>2-5%</td>
+                        <td>Rp70.000</td>
+                        <td><img src="image/EDC.jpg" alt="EDC" title="EDC" width="100px"></td>
+                    </tr>
+                    <tr>
+                        <th>EDT</th>
+                        <td>Lebih ringan dari parfum, tetapi tetap tahan lama</td>
+                        <td>5-15%</td>
+                        <td>Rp80.000</td>
+                        <td><img src="image/EDT.jpg" alt="EDT" title="EDT" width="100px"></td>
+                    </tr>
+                    <tr>
+                        <th>EDP</th>
+                        <td>Lebih intens dan tahan lama</td>
+                        <td>15-20%</td>
+                        <td>Rp95.000</td>
+                        <td><img src="image/EDP.jpg" alt="EDP" title="EDP" width="100px"></td>
+                    </tr>
+                </table>
+            </article>
+            <article id="pemesanan" class="card">
+                <h2>PESAN SEKARANG!</h2>
+                <img src="image/pemesanan.jpg" alt="pemesanan" title="pemesanan" class="gambar-artiker" width="300px">
+                <p>
+                    Parfum ini masih dengan stok terbatas, dan masih dalam harga promo lebaran.
+                    <br>Silahkan datang ke lokasi di Jl. transad V, Jatisampurna, Kota bekasi.
+                    atau <br>klik <a href="https://maps.app.goo.gl/VEMp1jwFFbWZdenu5" target="_blank">disini.</a>
+                    Untuk order silahkan hubungi <a href="https://api.whatsapp.com/send?phone=6281283711161" target="_blank">disini.</a>
+                </p>
+            </article>
+            <article id="dokumentasi" class="card">
+                <section>
+                    <h2>DOKUMENTASI</h2>
+                    <p>BERIKUT ADALAH TESTIMONI PELANGGAN :</p>
+                </section>
+                <section>
+                    <h3>TESTIMONI 1</h3>
+                    <img src="image/testimoni1.jpg" alt="testimoni1" title="testimoni1" class="gambar-dokum" width="300px">
+                    <p>John "saya baru pertama kali nya membeli disini, dan saya suka.
+                        Saya kira ini parfume untuk perempuan saja, namun untuk laki-laki
+                        juga bisa memakai nya."
+                    </p>
+                    <h3>TESTIMONI 2</h3>
+                    <img src="image/testimoni2.jpg" alt="testimoni2" title="testimoni2" class="gambar-dokum" width="300px">
+                    <p>Jennifer "Saya suka memakai parfum ini, karena menurut saya parfum ini cocok untuk semua gender.
+                        Anak sayang yang laki-laki dan perempuan juga menyukai parfum ini. 
+                        Dengan harga ini, parfum ini sangat worth it sekali!"
+                    </p>
+                    
+                </section>
+                <section>
+                    <h2>PROSES PEMBUATAN</h2>
+                    <img src="image/proses pembuatan.jpg" alt="proses pembuatan" title="proses pembuatan" class="gambar-dokum" width="300px">
+                    <p>Kami sangat peduli dengan produk buatan kami, sehingga kami menjamin proses pembuatan nya menggunakan
+                        bahan-bahan yang berkualitas
+                    </p>
+                </section>
+            </article>
+                
 
-    <!-- jumbotron -->
-    <div class="jumbotron text-center mt-5">
-      <img src="profil.jpg" alt="profil" class="rounded-circle img-thumbnail" />
-      <h1 class="display-4">Dava Hafizh Prawira</h1>
-      <p class="lead">
-        Mahasiswa Politeknik Negeri Jakarta, Jurusan Teknik Elektro, Program
-        Studi Telekomunikasi
-      </p>
-    </div>
-    <!-- jumbotron -->
-
-    <!-- about -->
-    <section id="about">
-      <div class="container text-center mt-5">
-        <div class="row mb-3">
-          <div class="col"><h2>About Me</h2></div>
         </div>
-        <div class="row justify-content-center fs-5 mb-3">
-          <div class="col-md-4 mt-3">
-            Saya lahir di jakarta pada x agustus 2002. Riwayat pendidikan saya
-            adalah : saya menempuh sekolah dasar di SD negeri jakarta. Menempuh
-            Sekolah menengah pertama di jakarta. Menempuh Sekolah menengah atas
-            di jakarta. Dan sekarang sedang menempuh pendidikan D3 di PNJ.
-          </div>
-          <div class="col-md-4 mt-3">
-            Saya memiliki cita-cita menjadi orang sukses agar bisa pergi ke
-            swiss. Saya ingin melakukan bisnis properti, karena menurut saya
-            sebuah properti akan terus ada selama umat manusia masih ada.
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- about -->
-
-    <!-- projects -->
-    <section id="projects" class="mt-5">
-      <div class="container text-center">
-        <div class="row">
-          <div class="col mt-4 mb-4"><h2>My projects</h2></div>
-        </div>
-        <div class="row justify-content-center">
-          <div class="col-md-4 mt-4 mb-4">
-            <div class="card">
-              <img src="bottle.jpg" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <p class="card-text">Project Parfum pertama</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mt-4 mb-4">
-            <div class="card">
-              <img src="bottle2.jpg" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <p class="card-text">Project Parfum Kedua</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mt-4 mb-4">
-            <div class="card">
-              <img src="EDC.jpg" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <p class="card-text">Project Parfum Ketiga</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mt-4 mb-4">
-            <div class="card">
-              <img src="EDP.jpg" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <p class="card-text">Project Parfum Keempat</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mt-4 mb-4">
-            <div class="card">
-              <img src="EDT.jpg" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <p class="card-text">Project Parfum Kelima</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- projects -->
-
-    <!-- footer -->
-    <div class="container">
-      <footer class="py-3 my-4">
-        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-          <li class="nav-item">
-            <a href="#" class="nav-link px-2 text-body-secondary">Home</a>
-          </li>
-          <li class="nav-item">
-            <a href="#about" class="nav-link px-2 text-body-secondary">About</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link px-2 text-body-secondary">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a href="#contact" class="nav-link px-2 text-body-secondary"
-              >Contact</a
-            >
-          </li>
-        </ul>
-        <div class="justify-content-center border-bottom mb-3 text-center p-3">
-          <h4 class="text-body-secondary">Contact</h4>
-          <p class="text-body-secondary">Email: dava@gmail.com</p>
-          <p class="text-body-secondary">WA : 08128888888</p>
-        </div>
-        <p class="text-center text-body-secondary" id="contact">
-          &copy; 2024 Dava, TT6B
-        </p>
-      </footer>
-    </div>
-    <!-- footer -->
-
-    <script src="bootstrap-5.3.3-dist/bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
-  </body>
+        <aside>
+            <header>
+                <h2>D' PARFUME</h2>
+                <p>Parfum murah tapi ga murahan</p>
+                <figure>
+                    <img src="image/bottle.jpg" alt="logo" width="200px">
+                    <figcaption>Logo D' PARFUME</figcaption>
+                </figure>
+            </header>
+            <section>
+                <table>
+                    <tr>
+                        <th>Nama Parfume</th>
+                        <td>D' PARFUME</td>
+                    </tr>
+                    <tr>
+                        <th>Nama Pemilik</th>
+                        <td>Dava Hafizh / Dapis</td>
+                    </tr>
+                    <tr>
+                        <th>Tahun berdiri</th>
+                        <td>2024</td>
+                    </tr>
+                    <tr>
+                        <th>Alamat</th>
+                        <td>Jl. transad V, Jatisampurna, Kota bekasi</td>
+                    </tr>
+                    <tr>
+                        <th>No. Telepon</th>
+                        <td>081283711161</td>
+                    </tr>
+                </table>
+            </section>
+        </aside>
+    </main>
+    <footer>
+        <p>Copyright &#169; 2024. D' PARFUME Right Reserved</p>
+    </footer>
+</body>
 </html>
